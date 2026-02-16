@@ -85,3 +85,14 @@ body {
     background-color: hsl(212, 23%, 69%);
     padding:.5rem;
 }
+
+
+@media  screen and (min-width: 768px) {
+    .card {
+        display flex;
+        max-width:730px;
+    }
+    .card__img {
+        width: 285px
+    }
+}
