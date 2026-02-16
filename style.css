@@ -88,6 +88,21 @@ body {
     padding:.5rem;
 }
 
+.share-tooltip {
+    display: none;
+}
+
+.share-tooltip.active {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: hsl(217, 19%, 35%);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    align-items: center;
+}
+
+
 
 @media  screen and (min-width: 768px) {
     .card {
