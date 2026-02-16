@@ -132,12 +132,17 @@ body {
 .share-button-wrapper {
     position: relative;
     z-index: 10;
+    margin-left: auto;
 }
 
 .share__button.active {
-   background-color: hsl(214, 17%, 51%);
-   color:white;
+background-color: hsl(214, 17%, 51%);
 }
+
+.share__button.active svg {
+    filter: brightness(0) invert(1);
+}
+
 
 
 @media  screen and (min-width: 768px) {
