@@ -140,7 +140,7 @@ background-color: hsl(214, 17%, 51%);
 }
 
 .share__button.active svg {
-    filter: brightness(0) invert(1);
+    filter: invert(1);
 }
 
 
