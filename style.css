@@ -19,7 +19,7 @@ body {
 .card {
     max-width: 327px;
     margin: 5rem auto;
-    background-color: hsl(210, 46%, 95%);
+    background-color: white;
     border-radius: 16px;
 }
 
@@ -31,7 +31,9 @@ body {
 
 .text__container {
     padding: 1.5rem;
-   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 
