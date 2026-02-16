@@ -6,6 +6,8 @@
 
 body {
     background-color: hsl(212, 23%, 69%);
+    font-size: 13px;
+    font-family: "Manrope", sans-serif;
 }
 
 .container { 
@@ -25,7 +27,7 @@ body {
 }
 
 .text__container {
-    
+
 }
 
 
@@ -40,12 +42,30 @@ body {
     margin-bottom: 3rem;
     
 }
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left__side {
+    display: flex;
+    gap: 1rem;
+}
+
 
 .autor__image {
     border-radius: 50%;
     width: 40px;
 }
-
+.author__info {
+    display:flex;
+    flex-direction: column;
+    
+}
+.author__date {
+    color:#9DAEC2;
+}
 .share__button {
     border-radius: 50%;
     background-color: hsl(212, 23%, 69%);
