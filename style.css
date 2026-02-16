@@ -89,10 +89,12 @@ body {
 
 @media  screen and (min-width: 768px) {
     .card {
-        display flex;
+        display: flex;
         max-width:730px;
+        border-radius: 8px;
     }
     .card__img {
         width: 285px
+        border-radius: 0;
     }
 }
