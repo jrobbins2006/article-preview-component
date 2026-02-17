@@ -182,4 +182,35 @@ background-color: hsl(214, 17%, 51%);
      line-height: 1.4;
     
 }
+
+.share-tooltip.active {
+        position: absolute;
+        bottom: auto;
+        top: -30px;
+        left: auto;
+        right:-75px;
+        width: auto;
+        background-color: hsl(217, 19%, 35%);
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        gap: 1rem;
+    }
+    
+    .left__side.hidden {
+        display: flex; /* Show author info on desktop */
+    }
+
+.share-tooltip.active::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Position it below the tooltip */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid hsl(217, 19%, 35%); /* Same color as tooltip */
+}
+
 }
