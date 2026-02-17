@@ -92,6 +92,12 @@ body {
     color: white;
     position: relative;
     z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    
 }
 
 .share-text {
@@ -115,6 +121,7 @@ body {
 
 
     position: absolute;
+    
     bottom: 0;
     left: 0;
     right: 0;
@@ -124,24 +131,26 @@ body {
     padding: 1.5rem;
     border-radius: 0 0 16px 16px;
     align-items: center;
+    /* height: 32px; */
 }
 .left__side.hidden {
     display: none;
 }
 
 .share-button-wrapper {
-    position: relative;
+    position : relative;
     z-index: 10;
     margin-left: auto;
+    top:5px;
+    
+    
 }
 
 .share__button.active {
 background-color: hsl(214, 17%, 51%);
+
 }
 
-.share__button.active svg {
-    filter: invert(1);
-}
 
 
 
